@@ -1,0 +1,221 @@
+HTML, BODY {
+    padding: 0 ;
+    margin: 0 ;
+    width:100%;
+    height:100%;
+
+}
+
+table.admin-default {
+    border-collapse: collapse;
+}
+
+table.admin-default td, table.admin-default tr {
+    border: 1px solid #C4CED1;
+}
+
+table.admin-default td {
+    padding: 4px;
+}
+
+table.admin-default td form {
+    display: inline;
+}
+
+table.admin-default thead td {
+    font-weight: bold;
+    background: #87ceeb;
+}
+
+table.admin-default input[type=submit] {
+    cursor: pointer;
+}
+
+table.admin-default input[type=submit].flat {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table.admin-default td.delimiter {
+    background-color: #254a86;
+    height: 5px;
+    padding: 0px;
+}
+
+.editable-text-value textarea {
+    width: 100%;
+}
+
+.floatl { float: left }
+.floatr { float: right }
+.clear { clear: both }
+.bold { font-weight: bold }
+
+.round3 {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.round6 {
+    -webkit-border-top-right-radius:	6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius:		6px;
+    -webkit-border-bottom-left-radius:	6px;
+    -moz-border-radius-topright:		6px;
+    -moz-border-radius-bottomright:		6px;
+    -moz-border-radius-topleft:			6px;
+    -moz-border-radius-bottomleft:		6px;
+    border-top-right-radius:			6px;
+    border-bottom-right-radius:			6px;
+    border-top-left-radius:				6px;
+    border-bottom-left-radius:			6px;
+}
+
+.round_top6 {
+    -webkit-border-top-right-radius:	6px;
+    -webkit-border-top-left-radius:		6px;
+    -moz-border-radius-topright:		6px;
+    -moz-border-radius-topleft:			6px;
+    border-top-right-radius:			6px;
+    border-top-left-radius:				6px;
+}
+
+.round_bottom6 {
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius:	6px;
+    -moz-border-radius-bottomright:		6px;
+    -moz-border-radius-bottomleft:		6px;
+    border-bottom-right-radius:			6px;
+    border-bottom-left-radius:			6px;
+}
+
+.ent-block {
+    border: 3px #254a86 solid;
+    width: 600px;
+    min-height: 150px;
+    font-size: 12px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+    padding: 3px;
+    -webkit-border-top-right-radius:	6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius:		6px;
+    -webkit-border-bottom-left-radius:	6px;
+    -moz-border-radius-topright:		6px;
+    -moz-border-radius-bottomright:		6px;
+    -moz-border-radius-topleft:			6px;
+    -moz-border-radius-bottomleft:		6px;
+    border-top-right-radius:			6px;
+    border-bottom-right-radius:			6px;
+    border-top-left-radius:				6px;
+    border-bottom-left-radius:			6px;
+}
+
+.ent-block .ent-header {
+    border-bottom: 2px #254a86 solid;
+    line-height: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.ent-block .ent-header a { text-decoration: none }
+.ent-block .ent-header a:hover { text-decoration: underline }
+
+.ent-block .ent-item {
+    width: 580px;
+    /*overflow-y: hidden;*/
+    border-bottom: 1px #187193 solid;
+    min-height: 25px;
+    line-height: 25px;
+    position: relative;
+}
+
+.ent-block .ent-item:last-child {
+    border-bottom: none;
+}
+
+.ent-block .ent-item-name {
+    width: 150px;
+    position: absolute;
+    top: 0px; left: 0px; right: 0px; bottom: 0px;
+    /*font-weight: bold;*/
+}
+
+.ent-block .ent-item-value {
+    width: 250px;
+    position: absolute;
+    top: 0px; left: 150px; right: 0px; bottom: 0px;
+}
+
+.ent-block .ent-item-do {
+    width: 50px;
+}
+
+#actions-block .ent-item-name {
+    width: 250px;
+}
+
+#choices-block .ent-item-name {
+    width: 300px;
+    /*height: 30px;*/
+    /*border: 1px red solid;*/
+}
+#choices-block .ent-item-value {
+    left: 300px;
+    width: 230px;
+}
+#stages-block .ent-item-value {
+    width: 350px;
+}
+#texts-block .ent-item .ent-item-value {
+    overflow-y: hidden;
+    width: 350px;
+}
+
+.ent-form { width: 100%; min-height: 200px }
+.ent-form .ent-form-item { min-height: 30px; padding: 3px 0px }
+.ent-form .name { width: 100px }
+.ent-form .value { width: 380px }
+.ent-form input, .ent-form select { width: 100% }
+.ent-form textarea { width:100%; height: 150px }
+.ent-form select[multiple] { height: 150px }
+
+span.reward { min-width: 50px; height: 20px }
+span.reward i { display: inline-block; margin-top: -5px; height: 20px; line-height: 20px}
+span.reward b { display: inline-block; width: 20px; height: 20px }
+
+#choice_form { position: relative; width: 800px; height: 300px}
+#choice_form > .choice_block { float:left; width: 200px; background-color: #87ceeb; margin: 0px 0px 10px 25px; padding: 5px}
+#choice_form > .choice_block textarea, #choice_form > .choice_block input { border: none; resize: none }
+#choice_form > .choice_block .value { width: 200px }
+ul { padding: 0px }
+ul li { display: inline}
+ul li input { width: 30px !important }
+
+label { cursor: pointer }
+.hidden { display: none }
+
+.ent-form-result .name { width: 200px }
+
+#result_form { width: 800px }
+#result_form .result-item { width: 200px; margin: 0px 0px 10px 25px; background-color: #87ceeb; padding: 5px; position: relative }
+#result_form .result-item textarea, #result_form .result-item input { border: none; resize: none }
+#result_form .result-plus { color: #000000; font-weight: bold; font-size: 20px; cursor: pointer; position: absolute; right: 5px; bottom: -5px }
+#result_form .result-minus { color: #000000; font-weight: bold; font-size: 15px; cursor: pointer; position: absolute; left: 5px; bottom: -2px }
+#result_form .result-chance { color: #000000; position: absolute; left: 60px; bottom: -2px }
+#result_form .result_blank { width: 198px; min-height: 200px; margin: 0px 0px 10px 25px; border: 1px dashed #87ceeb; padding: 5px; position: relative }
+
+input::-webkit-input-placeholder { text-align: center }
+textarea::-webkit-input-placeholder { text-align: center }
+input:-moz-placeholder { text-align: center }
+textarea:-moz-placeholder { text-align: center }

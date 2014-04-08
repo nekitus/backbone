@@ -1,0 +1,236 @@
+/*@font-face {*/
+	/*font-family: 'acmesa';*/
+	/*src: url('/fonts/acmesa.eot');*/
+	/*src: local("acmesa"), url( /fonts/acmesa.ttf ) format("truetype");*/
+/*}​*/
+
+/* Money */
+@font-face {
+    font-family: 'money';
+    src: local("paratype"), url( /fonts/money.ttf ) format("truetype");
+}
+
+/* PT-Sans */
+@font-face {
+    font-family: 'pt-sans-regular';
+    src: local("paratype"), url( /fonts/pt/PTN57F.ttf ) format("truetype");
+}
+@font-face {
+    font-family: 'pt-sans-italic';
+    src: local("paratype"), url( /fonts/pt/PTS56F.ttf ) format("truetype");
+}
+
+
+@font-face {
+    font-family: 'narrow';
+    src: url('/fonts/narow.eot');
+    src: local("paratype"), url( /fonts/narow.ttf ) format("truetype");
+}
+
+@font-face {
+    font-family: 'open';
+    src: local("paratype"), url( /fonts/open-sans.regular.ttf ) format("truetype");
+}
+
+@font-face {
+    font-family: 'open-italic';
+    src: local("paratype"), url( /fonts/OpenSans-SemiboldItalic.ttf ) format("truetype");
+}
+
+@font-face {
+    font-family: 'round';
+    src: url('/fonts/paratype.eot');
+    src: local("round"), url( /fonts/paratype.ttf ) format("truetype");
+}
+
+@font-face {
+    font-family: 'basic';
+    /*src: url('/fonts/PTC55F_W.eot');*/
+    src: local("basic"), url( /fonts/basic.ttf ) format("truetype");
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    /*src: url('/fonts/paratype.eot');*/
+    /*src: local("paratype"), url( /fonts/paratype.ttf ) format("truetype");*/
+}
+
+/*canvas.default {cursor:url('../img/cursor/Arrow.cur')}*/
+/*canvas.pointer {cursor:url('../img/cursor/Link.cur')}*/
+
+canvas {
+    cursor: default;
+}
+.pointed {
+    cursor: pointer;
+}
+
+.default {
+    cursor: default;
+}
+
+/*cursor: url('customMoveCursor.cur'), move;*/
+/*$('canvas#draw').css('cursor', 'url(image/another-cursor.cur)');*/
+
+
+.resources {
+	visibility:hidden;
+}
+
+.workspace {
+	position: absolute;
+	margin: 0px;
+}
+.map {
+	position: absolute;
+	margin: 0px;
+}
+.workspace1 {
+	position: absolute;
+	margin: 0px;
+	background-color: red;
+	width: 1000px;
+	height: 1000px;
+}
+
+#userpane {
+	position: absolute;
+}
+
+#fps {
+	position: absolute;
+	margin-left: 210px;
+	width: 200px;
+}
+
+.content_container {
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 400px;
+	/*background-color: red;*/
+	width: 200px;
+	height: 200px;
+	visibility: collapse;
+}
+.resorces {
+	position: absolute;
+	background-color: silver;
+	margin-top: 20px;
+}
+
+.nickname {
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 15px;
+	background-color: white;
+	width: 80px;
+	text-align: center;
+}
+
+.tooltip {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	background-color: silver;
+	z-index: 100;
+	opacity: 0.8;
+	visibility: collapse;
+}
+
+.body {
+	margin: 0;
+	position: absolute;
+	background-color: gray;
+	z-index: 50;
+}
+
+
+#debug {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    font-size: 12px;
+    padding: 5px;
+}
+#debug .data {
+    width: 400px;
+    overflow: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    top:0px;
+}
+
+
+#debug .controls {
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+
+#message_pane {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: white;
+}
+
+#message_pane.closed {
+    height: 20px;
+}
+
+#message_pane .btn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: red;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+#message_pane .msg {
+    width: 700px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    background-color: #87ceeb;
+    overflow-y: auto;
+}
+
+#message_pane.closed .msg {
+    display: none;
+}
+
+#message_pane .one {
+    width: 680px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #87ceeb;
+    overflow: hidden;
+    display: none;
+}
+
+#message_pane.closed .one {
+    display: block;
+}
+
+#message_pane p {
+    padding: 0;
+    margin: 0;
+}

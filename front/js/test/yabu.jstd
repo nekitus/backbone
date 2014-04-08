@@ -1,0 +1,6 @@
+load:
+  - ../lib/jasmine/lib/jasmine-core/jasmine.js
+  - ../lib/jasmine-adapter/src/JasmineAdapter.js
+  - ../lib/kinetic-v4.0.1.js
+  - ../test/yabu/yabu_test.js
+  - ../lib/yabu.js
